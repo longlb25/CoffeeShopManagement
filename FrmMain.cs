@@ -33,5 +33,10 @@ namespace CoffeeShopManagement
             frmAdmin frmAdmin = new frmAdmin();
             frmAdmin.ShowDialog();
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

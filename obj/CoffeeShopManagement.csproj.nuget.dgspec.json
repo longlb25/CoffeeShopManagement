@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {}
+    "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {}
   },
   "projects": {
-    "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {
+    "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+        "projectUniqueName": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
         "projectName": "CoffeeShopManagement",
-        "projectPath": "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+        "projectPath": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
         "packagesPath": "C:\\Users\\HTC\\.nuget\\packages\\",
-        "outputPath": "E:\\csProject\\prn211\\CoffeeShopManagement\\obj\\",
+        "outputPath": "E:\\csProject\\CoffeeShopManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HTC\\AppData\\Roaming\\NuGet\\NuGet.Config",
