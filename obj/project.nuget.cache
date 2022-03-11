@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fvlwslz1t1PNfGyt9u3DVrtEgJ2VcT7WRQ6fYhExKCnLVAHvtnCDgr/M/6LjX50dZwfVYgB51BfmG1rD0rnGQg==",
+  "dgSpecHash": "WrVBSijs3kl7vEqUYspRglqwSiteL5OvxpxkKms8GfUQGHPwjSrcQ9wI0gVNf7b00d97A11bDpjHv7R/lRUh4A==",
   "success": true,
-  "projectFilePath": "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+  "projectFilePath": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HTC\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\HTC\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
