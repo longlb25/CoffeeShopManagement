@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {}
+    "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {}
   },
   "projects": {
-    "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {
+    "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+        "projectUniqueName": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
         "projectName": "CoffeeShopManagement",
-        "projectPath": "E:\\csProject\\prn211\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+        "projectPath": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
         "packagesPath": "C:\\Users\\HTC\\.nuget\\packages\\",
-        "outputPath": "E:\\csProject\\prn211\\CoffeeShopManagement\\obj\\",
+        "outputPath": "E:\\csProject\\CoffeeShopManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HTC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -40,9 +40,15 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
