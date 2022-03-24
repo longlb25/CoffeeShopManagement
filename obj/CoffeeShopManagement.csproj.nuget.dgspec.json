@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {}
+    "C:\\Users\\duong\\Source\\Repos\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {}
   },
   "projects": {
-    "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {
+    "C:\\Users\\duong\\Source\\Repos\\CoffeeShopManagement\\CoffeeShopManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+        "projectUniqueName": "C:\\Users\\duong\\Source\\Repos\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
         "projectName": "CoffeeShopManagement",
-        "projectPath": "E:\\csProject\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
-        "packagesPath": "C:\\Users\\HTC\\.nuget\\packages\\",
-        "outputPath": "E:\\csProject\\CoffeeShopManagement\\obj\\",
+        "projectPath": "C:\\Users\\duong\\Source\\Repos\\CoffeeShopManagement\\CoffeeShopManagement.csproj",
+        "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duong\\Source\\Repos\\CoffeeShopManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HTC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,16 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
