@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CoffeeShopManagement.Models;
 
 namespace CoffeeShopManagement
 {
     public partial class FrmMain : Form
     {
-        public FrmMain()
+        static string abc="";
+        public FrmMain(string text)
         {
+            abc = text;
             InitializeComponent();
+            
         }
 
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -24,7 +28,7 @@ namespace CoffeeShopManagement
 
         private void accountInformationToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            FrmProfile frmProfile = new FrmProfile();
+            FrmProfile frmProfile = new FrmProfile(abc);
             frmProfile.ShowDialog();
         }
 
@@ -35,6 +39,23 @@ namespace CoffeeShopManagement
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            using(var context = new CoffeeShopManagementContext())
+            {
+                Account acc = context.Accounts.Where(x => x.UserName == abc).FirstOrDefault();
+                if(acc.Type ==0)
+                {
+                    adminToolStripMenuItem.Enabled = false;
+                }
+            }
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }

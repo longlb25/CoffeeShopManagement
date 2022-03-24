@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CoffeeShopManagement.Models;
 
 namespace CoffeeShopManagement
 {
@@ -32,10 +33,24 @@ namespace CoffeeShopManagement
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FrmMain frmMain = new FrmMain();
-            frmMain.ShowDialog();
-            this.Close();
+            if (context.Accounts.Where(c => c.UserName == tbUserName.Text
+            && c.PassWord == tbPass.Text).Count() > 0)
+            {
+                this.Hide();
+                FrmMain frmMain = new FrmMain(tbUserName.Text);
+                frmMain.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Wrong username or password!");
+            }
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+        CoffeeShopManagementContext context = new CoffeeShopManagementContext();
     }
 }

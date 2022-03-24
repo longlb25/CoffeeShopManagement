@@ -67,22 +67,23 @@
             this.accountInformationToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1199, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1199, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.shopManagementToolStripMenuItem});
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // shopManagementToolStripMenuItem
             // 
             this.shopManagementToolStripMenuItem.Name = "shopManagementToolStripMenuItem";
-            this.shopManagementToolStripMenuItem.Size = new System.Drawing.Size(218, 26);
+            this.shopManagementToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.shopManagementToolStripMenuItem.Text = "Shop Management";
             this.shopManagementToolStripMenuItem.Click += new System.EventHandler(this.shopManagementToolStripMenuItem_Click);
             // 
@@ -92,20 +93,20 @@
             this.accountInformationToolStripMenuItem1,
             this.logOutToolStripMenuItem});
             this.accountInformationToolStripMenuItem.Name = "accountInformationToolStripMenuItem";
-            this.accountInformationToolStripMenuItem.Size = new System.Drawing.Size(159, 24);
+            this.accountInformationToolStripMenuItem.Size = new System.Drawing.Size(130, 20);
             this.accountInformationToolStripMenuItem.Text = "Account Information";
             // 
             // accountInformationToolStripMenuItem1
             // 
             this.accountInformationToolStripMenuItem1.Name = "accountInformationToolStripMenuItem1";
-            this.accountInformationToolStripMenuItem1.Size = new System.Drawing.Size(145, 26);
+            this.accountInformationToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
             this.accountInformationToolStripMenuItem1.Text = "Profile";
             this.accountInformationToolStripMenuItem1.Click += new System.EventHandler(this.accountInformationToolStripMenuItem1_Click);
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(145, 26);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.logOutToolStripMenuItem.Text = "Log Out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
@@ -123,7 +124,7 @@
             this.cbCategory.FormattingEnabled = true;
             this.cbCategory.Location = new System.Drawing.Point(103, 28);
             this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(217, 30);
+            this.cbCategory.Size = new System.Drawing.Size(217, 25);
             this.cbCategory.TabIndex = 2;
             // 
             // btnAddFood
@@ -140,7 +141,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(354, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 22);
+            this.label3.Size = new System.Drawing.Size(61, 18);
             this.label3.TabIndex = 7;
             this.label3.Text = "Quantity";
             // 
@@ -148,7 +149,7 @@
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(452, 42);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(291, 29);
+            this.numericUpDown1.Size = new System.Drawing.Size(291, 25);
             this.numericUpDown1.TabIndex = 8;
             // 
             // btnPayment
@@ -165,7 +166,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(354, 95);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 22);
+            this.label5.Size = new System.Drawing.Size(72, 18);
             this.label5.TabIndex = 12;
             this.label5.Text = "Total Price";
             // 
@@ -173,14 +174,14 @@
             // 
             this.tbPrice.Location = new System.Drawing.Point(452, 92);
             this.tbPrice.Name = "tbPrice";
-            this.tbPrice.Size = new System.Drawing.Size(291, 29);
+            this.tbPrice.Size = new System.Drawing.Size(291, 25);
             this.tbPrice.TabIndex = 13;
             // 
             // tbSearch
             // 
             this.tbSearch.Location = new System.Drawing.Point(66, 73);
             this.tbSearch.Name = "tbSearch";
-            this.tbSearch.Size = new System.Drawing.Size(164, 29);
+            this.tbSearch.Size = new System.Drawing.Size(164, 25);
             this.tbSearch.TabIndex = 15;
             // 
             // btnSearch
@@ -198,7 +199,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 22);
+            this.label2.Size = new System.Drawing.Size(45, 18);
             this.label2.TabIndex = 6;
             this.label2.Text = "Name";
             // 
@@ -207,7 +208,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 22);
+            this.label1.Size = new System.Drawing.Size(63, 18);
             this.label1.TabIndex = 5;
             this.label1.Text = "Category";
             // 
@@ -224,7 +225,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(883, 41);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 29);
+            this.textBox1.Size = new System.Drawing.Size(170, 25);
             this.textBox1.TabIndex = 10;
             // 
             // label4
@@ -232,7 +233,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(765, 44);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 22);
+            this.label4.Size = new System.Drawing.Size(95, 18);
             this.label4.TabIndex = 9;
             this.label4.Text = "Table Number";
             // 
@@ -279,7 +280,7 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 639);
             this.Controls.Add(this.groupBox2);
@@ -300,6 +301,7 @@
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Coffee Shop Management";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
